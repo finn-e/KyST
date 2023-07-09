@@ -1,5 +1,6 @@
-    <!-- Aside -->
-    <div id="docs-aside" class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden fixed top-0 left-0 bottom-0 z-[60] w-80 bg-white border-r border-gray-200 py-10 px-8 overflow-y-auto scrollbar-y lg:block lg:translate-x-0 lg:top-0 lg:right-auto lg:bottom-0 lg:left-[max(0px,calc(50%-45rem))] lg:z-10 dark:scrollbar-y dark:bg-slate-900">
+<template>
+   <!-- Aside -->
+    <div id="docs-aside" class="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden fixed top-0 right-0 bottom-0 z-[60] w-80 bg-white border-r border-gray-200 py-10 px-8 overflow-y-auto scrollbar-y lg:block lg:translate-x-0 lg:top-0 lg:right-[max(0px,calc(50%-45rem))] lg:bottom-0 lg:left-auto lg:z-10 dark:scrollbar-y dark:bg-slate-900">
         <!-- Navigation Toggle -->
         <button type="button" class="ml-auto flex justify-end lg:hidden text-gray-500 hover:text-gray-600" data-hs-overlay="#docs-sidebar" aria-controls="docs-sidebar" aria-label="Toggle navigation">
           <span class="sr-only">Toggle Navigation</span>
@@ -24,3 +25,4 @@
         <!-- Nav -->
       </div>
       <!-- End Aside -->
+</template> 
