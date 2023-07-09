@@ -1,0 +1,7 @@
+<template>
+    <footer class="mt-auto py-3 bg-gray-800">
+      <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8">
+        <p class="text-white">Place sticky footer content here.</p>
+      </div>
+  </footer>
+</template>
